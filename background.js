@@ -1,4 +1,5 @@
 let scripts = []
+let variables = []
 
 chrome.runtime.onInstalled.addListener(() => {
     console.log("Extension Installed");
@@ -15,6 +16,9 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
         console.log('Message sendScriptContents:', request);
         // sendResponse({ scripts: request.scripts });
         scripts = request.scripts;
+
+        console.log("scripts", scripts);
+
     }
 });
   
