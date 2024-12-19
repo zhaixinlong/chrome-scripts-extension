@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Get Script Content",
     "description": "A simple extension to get script content from the webpage.",
-    "version": "1.7",
+    "version": "1.0.0",
     "permissions": [
       "activeTab"
     ],
