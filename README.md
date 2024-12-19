@@ -1,4 +1,4 @@
-# my chrome extension
+# chrome scripts extension
 
 ## 功能描述
 
